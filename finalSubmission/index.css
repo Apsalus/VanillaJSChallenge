@@ -9,10 +9,15 @@ body{
     padding: 1%;
 }
 
+.background-container{
+    border-radius: 50px;
+    background-image: linear-gradient(0.25turn, rgb(59 64 65 / 80%), rgb(210, 218, 226, 0.1));
+}
+
 h2{
-    font-size: 112px;
-    margin-top:13%;
-    margin-bottom: 0px;
+    font-family: monospace;
+    font-size: 150px;
+    margin-top: 20%;
 }
 
 h5{
@@ -24,12 +29,18 @@ h5{
 input {
     border: none;
     background: transparent;
-    font-size: 22px;
-    margin: 3px;
-    text-align:center;
-    color:  #ddd;
+    font-size: 30px;
+    font-family: cursive;
+    margin: 15px;
+    text-align: center;
+    color: #ddd;
     border: 2px solid #ddd;
 }
+
+input::placeholder {
+    color: #ddd;
+    font-family: math;
+  }
 
 ul {
     margin-left: 40%;
@@ -37,22 +48,21 @@ ul {
 
 li{
     list-style: none;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 800;
     text-align:left;
-    color: #ddd;
+    color: rgb(250 50 60);
 }
-
 button{
     border: none;
     background: transparent;
     font-size: 22px;
+    margin-left: 22px;
 }
 
-/* .form,
-.greetings {
-    display: none;
-    background-color: aliceblue;
-} */
+#todo-form{
+    margin-right: 12.8%;
+}
 
 .showing{
     display: block;
